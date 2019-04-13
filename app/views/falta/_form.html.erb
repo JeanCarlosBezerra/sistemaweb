@@ -1,0 +1,22 @@
+<%= form_with(model: faltum, local: true) do |form| %>
+  <% if faltum.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(faltum.errors.count, "error") %> prohibited this faltum from being saved:</h2>
+
+      <ul>
+      <% faltum.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :presenças %>
+    <%= form.number_field :presenças %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

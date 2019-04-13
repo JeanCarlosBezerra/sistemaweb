@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  notaaluno: 1.5
+  notatrabalhos: 1.5
+  notalivro: 1.5
+
+two:
+  notaaluno: 1.5
+  notatrabalhos: 1.5
+  notalivro: 1.5

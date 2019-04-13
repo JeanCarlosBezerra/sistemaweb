@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  resources :falta
+  resources :nota
+  resources :provas
   resources :trabalhos
   resources :aulas
   resources :disciplinas
