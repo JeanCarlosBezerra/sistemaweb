@@ -10,6 +10,8 @@ class CreateAlunos < ActiveRecord::Migration[5.2]
       t.string :endereco
 
       t.timestamps
+
+      
     end
   end
 end
